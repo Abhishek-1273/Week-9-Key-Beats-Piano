@@ -46,6 +46,6 @@ function animateButton(key) {
     const activeButton = document.querySelector("." + targetClass);
     if (activeButton) {
         activeButton.classList.add("pressed");
-        setTimeout(() => activeButton.classList.remove("pressed"), 300);
+        setTimeout(() => activeButton.classList.remove("pressed"), 200);
     }
 }
